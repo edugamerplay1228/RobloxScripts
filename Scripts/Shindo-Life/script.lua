@@ -211,7 +211,7 @@ TextLabel_5.TextWrapped = true
 
 -- Scripts:
 
-local function WMZSTMO_fake_script() -- Frame_2.VerifyScript 
+local function ISPD_fake_script() -- Frame_2.VerifyScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local http = game:GetService("HttpService")
@@ -250,8 +250,8 @@ local function WMZSTMO_fake_script() -- Frame_2.VerifyScript
 	end)
 	
 end
-coroutine.wrap(WMZSTMO_fake_script)()
-local function OTDA_fake_script() -- Main.Manager 
+coroutine.wrap(ISPD_fake_script)()
+local function RIPEG_fake_script() -- Main.Manager 
 	local script = Instance.new('LocalScript', Main)
 
 	local KG1 = script.Parent.KG1
@@ -261,7 +261,7 @@ local function OTDA_fake_script() -- Main.Manager
 		local text = KG1.Text
 		game.Players.LocalPlayer.statz.main.kg1.Value = text
 		local text1 = KG2.Text
-		game.Players.LocalPlayer.statz.main.kg1.Value = text1
+		game.Players.LocalPlayer.statz.main.kg2.Value = text1
 	end
 end
-coroutine.wrap(OTDA_fake_script)()
+coroutine.wrap(RIPEG_fake_script)()
